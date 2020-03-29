@@ -1,7 +1,13 @@
+pp 
+
 def find_item_by_name_in_collection(name, collection)
-  # Implement me first!
-  #
-  # Consult README for inputs and outputs
+  item_by_name = []
+  i = 0 
+  while i < collection.length do
+    item_by_name << movie_with_director_name(name, movies_collection[i])
+    i += 1
+  end
+  item_by_name
 end
 
 def consolidate_cart(cart)
